@@ -1,0 +1,27 @@
+Devops - git 
+============
+go to gitub.com & register.
+download & install - git-scm.com ( Git-Bash )
+
+Step to create new repositry & upload file: 
+
+login to github.com
+click on + on top right for New Repositry
+Enter Repositry name & select " Initialize this repositry with a README"
+Select the created repositry & select " clone or download " 
+copy the link 
+Open " Git Bash " 
+
+git clone git clone https://github.com/iamonlinesumitk01/devops-git-steps.git
+ls -ld devops_git_steps/            (  Created repositry , repo dir will have .git file when we do ls -ltra  )
+mkdir devops_kk                     ( CReated local directory , local directory will not have .git file when we do ls -ltra ) 
+cd devops_intellipaat_7am/
+ls -lrta
+git config --global user.name "iamonlinesumitk01"
+git config --global user.email "iamonlinesumitk01@gmail.com"
+git status
+git add .
+git status
+git commit -m "Changescommit"
+git status
+git push -u origin master
