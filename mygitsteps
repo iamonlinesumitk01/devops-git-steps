@@ -1,27 +1,46 @@
-Devops - git 
-============
-go to gitub.com & register.
-download & install - git-scm.com ( Git-Bash )
+===================
+Devops - git steps 
+===================
 
-Step to create new repositry & upload file: 
+>> go to gitub.com & register.
+>> download & install - git-scm.com ( Git-Bash )
 
-login to github.com
-click on + on top right for New Repositry
-Enter Repositry name & select " Initialize this repositry with a README"
-Select the created repositry & select " clone or download " 
-copy the link 
-Open " Git Bash " 
+>> Step to create new repositry & upload file: 
 
-git clone git clone https://github.com/iamonlinesumitk01/devops-git-steps.git
-ls -ld devops_git_steps/            (  Created repositry , repo dir will have .git file when we do ls -ltra  )
-mkdir devops_kk                     ( CReated local directory , local directory will not have .git file when we do ls -ltra ) 
-cd devops_intellipaat_7am/
-ls -lrta
-git config --global user.name "iamonlinesumitk01"
-git config --global user.email "iamonlinesumitk01@gmail.com"
-git status
-git add .
-git status
-git commit -m "Changescommit"
-git status
-git push -u origin master
+> login to github.com
+> click on + on top right for New Repositry
+> Enter Repositry name & select " Initialize this repositry with a README"
+> Select the created repositry & select " clone or download " 
+> copy the link 
+> Open " Git Bash " 
+
+> git clone git clone https://github.com/iamonlinesumitk01/devops-git-steps.git
+
+> ls -ld devops_git_steps/            (  Created repositry , repo dir will have .git file when we do ls -ltra  )
+
+> mkdir devops_kk                     ( CReated local directory , local directory will not have .git file when we do ls -ltra ) 
+
+> cd devops_intellipaat_7am/
+
+> ls -lrta
+
+> git config --global user.name "iamonlinesumitk01"
+> git config --global user.email "iamonlinesumitk01@gmail.com"
+> git status
+> git add .
+> git status
+> git commit -m "Changescommit"
+> git status
+> git push -u origin master
+
+===========================================
+
+> git fetch
+> git pull
+> git push
+
+Change the Branch from master to Others :
+
+> CReate new branch - Contact while saving the file under repository.
+> git fetch origin
+> git checkout contact
